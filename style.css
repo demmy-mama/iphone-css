@@ -1,0 +1,220 @@
+html {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 50px;
+}
+.outline {
+   width: 370px;
+   height: 712px;
+   margin: 0 auto; 
+   background: linear-gradient(45deg, #6b6a69 0%, #585857 45%, #a7a6a5 70%, #5c5b57 85%, #3a3833 90% 100%);  
+   border-radius: 40px;
+   position: relative;
+}
+
+.key-handle {
+    width: 10px;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid#fff;
+    z-index: 10;
+    border-radius: 30px;
+}
+
+.key {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 73px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#fff;
+    z-index: 10;
+    border-radius: 10px;
+
+}
+
+.time {
+    font-size: 70px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    z-index: 10;
+    margin: 0;
+    width: 100%;
+
+}
+
+.date {
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+    z-index: 10;
+    margin: 0;
+
+}
+.flame {
+    width: 360px;
+    height: 702px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border-radius: 40px;
+
+}
+
+.moniter {
+    width: 330px;
+    height: 672px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+    background: rgb(201,7,138);
+    background: linear-gradient(322deg, rgba(201,7,138,1) 0%, rgba(182,17,70,1) 29%, rgba(4,59,236,1) 70%, rgba(77,9,204,1) 100%);
+}
+
+.side-btn-upper {
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: -3px;
+    background-color: #3a3833;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.side-btn-middle {
+    width: 3px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: -3px;
+    background-color: #3a3833;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.side-btn-lower {
+    width: 3px;
+    height: 60px;
+    position: absolute;
+    top: 230px;
+    left: -3px;
+    background-color: #3a3833;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.power-btn {
+    width: 3px;
+    height: 100px;
+    position: absolute;
+    top: 155px;
+    right: -3px;
+    background-color: #3a3833;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.upper {
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index: 5;
+}
+
+.ear {
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3a3833;
+    border-radius: 3px;
+    z-index: 6;
+}
+
+.camera {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 23px;
+    left: 225px;
+    z-index: 6;
+    border-radius: 50%;
+    background-color:#3a3833;
+}
+
+.wipe {
+    width: 120px;
+    height: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#fff;
+    border-radius: 2px;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #413f3d85;
+    background-image: url(img/light.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 80px;
+    left: 65px;
+    z-index: 10;
+}
+
+.camera-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #413f3d85;
+    background-image: url(img/camera.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 80px;
+    right: 65px;
+    z-index: 10;
+ 
+}
